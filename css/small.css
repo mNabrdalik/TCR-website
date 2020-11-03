@@ -1,0 +1,43 @@
+.brand-logo h3 {
+  font-size: 32px;
+}
+
+.brand-logo h3 i {
+  bottom: 4px;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 0 20px;
+  margin-left: 52px;
+}
+
+.home .cover-heading {
+  font-size: 36px;
+  width: 550px;
+}
+
+.home .lead {
+  margin: 0 50px;
+  font-size: 20px;
+}
+
+.home a {
+  font-size: 20px;
+}
+
+.col-sm-4 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 45%;
+}
+
+.col-sm-4 .card-header {
+  padding: 12px 10px;
+}
+
+.adress u {
+  font-size: 18px;
+}
+/*# sourceMappingURL=small.css.map */

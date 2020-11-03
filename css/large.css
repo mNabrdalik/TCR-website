@@ -1,0 +1,63 @@
+.brand-logo h3 {
+  font-size: 36px;
+}
+
+.brand-logo h3 i {
+  font-size: 24px;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin: 0 40px;
+  margin-left: 92px;
+}
+
+.home .cover-heading {
+  font-size: 46px;
+  width: 900px;
+}
+
+.home .lead {
+  margin: 10px 120px;
+}
+
+.home a {
+  font-size: 22px;
+}
+
+.offer .row .card .card-header h3 {
+  font-size: 24px;
+}
+
+.offer .row .card .card-body h2 {
+  font-size: 34px;
+}
+
+.list-unstyled {
+  font-size: 24px;
+}
+
+.contact h3 {
+  font-size: 34px;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+.form-row {
+  font-size: 20px;
+}
+
+.contact .form-check label {
+  font-size: 16px;
+}
+
+.contact .btn-primary {
+  font-size: 22px;
+}
+
+.adress u {
+  font-size: 22px;
+}
+/*# sourceMappingURL=large.css.map */

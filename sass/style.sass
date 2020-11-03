@@ -1,0 +1,212 @@
+$blue-color: #4a8fcf
+$white-color: whitesmoke
+
+*, *::after, *::before
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html
+    scroll-behavior: smooth
+    
+body
+    position: relative
+    height: 100vh
+    background-image: url("../img/hero-img.jpg");
+    background-position: center
+    background-size: cover
+    z-index: 0
+    font-family: 'Poppins', sans-serif;
+    color: $white-color
+
+    .bg-shadow
+        width: 100%
+        background-color: rgba(0, 0, 0, .75)
+        z-index: -1    
+//HEADER
+
+header
+    .header-color
+        background-color: rgba(0, 0, 0, .9)
+        z-index: -1
+
+    .brand-logo
+        padding-top: 10px
+        color: $blue-color
+        letter-spacing: 7px
+        text-shadow: 5px 5px 10px black
+
+        span
+            color: $white-color
+
+        i
+            position: relative
+            bottom: 2px
+            font-size: 21px
+            color: $white-color
+
+.nav-link  
+    padding: 5px 15px 10px
+    margin-left: 30px
+    color: $blue-color 
+    text-transform: uppercase
+    font-weight: bold
+    font-size: 12px 
+    letter-spacing: 5px
+    transition: color .6s  
+            
+
+.nav-link:hover
+    color: $white-color   
+
+//HOME
+
+.home
+    padding-top: 80px
+    height: 100vh
+    
+    .cover-heading 
+        position: absolute
+        top: 20%
+        left: 50% 
+        transform: translateX(-50%)
+        padding: 20px 10px 0px
+        margin: 0px 10px
+        text-align: center 
+        text-transform: uppercase
+        font-size: 28px
+        letter-spacing: 7px
+        text-shadow: 5px 5px 1px black
+        color: $white-color
+        animation: brand-name-color ease-in 1.5s
+
+    .lead
+        position: absolute
+        top: 40%
+        padding-top: 20px
+        margin: 0px 15px
+        font-size: 16px
+        text-align: center
+        text-shadow: 5px 5px 1px black
+
+    a
+        position: relative
+        top: 55vh
+        margin: 70px 0 20px
+        color: $white-color
+        background-color:#4a8fcf
+        border-color:#4a8fcf
+        align-items: center    
+        font-size: 14px
+        transition: color .7s, background-color .7s, border-color .7s 
+
+    a:hover
+        color: $blue-color 
+        background-color: $white-color
+        border-color: $white-color
+
+//OFFER
+          
+.offer
+    margin: 100px 20px 40px 0px
+    color: $blue-color     
+
+    .row 
+        margin: 0px 25px
+        
+        .card
+            margin: 10px 10px
+            padding: 0
+            background-color: $white-color
+            transition: transform ease-out .3s
+
+            .card-header
+                background-color: rgba(0, 0, 0, .1)
+            
+                h3
+                    text-transform: uppercase
+                    font-weight: bold 
+                    font-size: 18px
+
+            .card-body
+                padding: 5px 5px
+                margin-top: 5px
+
+                h2
+                    font-size: 24px       
+
+.list-unstyled 
+    font-size: 16px   
+
+    .discount
+        margin: 0 40px             
+
+.card:hover   
+    transform: scale(1.05)    
+
+//CONTACT
+
+.contact
+    text-transform: uppercase
+
+    h3
+        letter-spacing: 5px    
+
+    .form-check
+          margin-right: 20px
+          text-align: left 
+          text-transform: lowercase   
+
+          label
+              font-size: 12px
+
+    .btn-primary
+        min-width: 250px
+        margin: 30px 0 50px
+        text-transform: uppercase
+        font-weight: bold
+        background-color:#4a8fcf
+        border-color:#4a8fcf
+        transition: color .7s, background-color .7s, border-color .7s 
+
+    .btn-primary:hover
+        color: $blue-color 
+        background-color: $white-color
+        border-color: $white-color 
+
+.adress
+    text-transform: none
+    u
+        font-size: 16px
+        letter-spacing: 5px
+
+@media (max-width: 405px)
+    .nav-link
+        margin: 0
+        margin-left: 20px
+        letter-spacing: 2px
+          
+    .last
+        margin-left: 10px
+//FOOTER
+.inner
+    background-color: rgba(0, 0, 0, .8)
+    p
+        margin-bottom: 0
+        font-size: 14px
+
+@keyframes brand-name-color
+    0%
+        color: $blue-color
+    100%
+        color: $white-color
+           
+.animate__animated.animate__fadeInUp   
+    animation-duration: 1s    
+
+.animate__backInUp  
+    animation-duration: 2s
+
+.animate__pulse 
+    animation-duration: 5s
+           

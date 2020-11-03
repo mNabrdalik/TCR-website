@@ -1,0 +1,29 @@
+.brand-logo h3 {
+  font-size: 42px;
+}
+
+.brand-logo h3 i {
+  bottom: 5px;
+  font-size: 28px;
+}
+
+.nav-link {
+  font-size: 24px;
+  margin: 0 80px;
+  margin-left: 142px;
+}
+
+.home .cover-heading {
+  font-size: 56px;
+  width: 1200px;
+}
+
+.home .lead {
+  margin: 10px 150px;
+  font-size: 32px;
+}
+
+.home a {
+  font-size: 32px;
+}
+/*# sourceMappingURL=extra-large.css.map */
